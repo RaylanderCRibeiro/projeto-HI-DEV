@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>HI-DEV LO-FI</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  	<link href="css/estilo-menu.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!--tags meta para SEO-->
+	<meta charset="description" content="Conteúdo do meu site.">
+	<meta charset="keywords" content="palavras,separadas,por,virgula">
+	<meta charset="author" content="Raylander C. Ribeiro" />
+	<meta charset="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+    <meta http-equiv="X-UA-compatible" content="ie=edge" />
+    <meta charset="utf-8"/>
+    
+</head>
+<body>
+			<!--java script menu-->
+            	
+        <script>
+			  function openSlideMenu(){
+				   document.getElementById('side-menu').style.width='250px';
+				   document.getElementById('main').style.marginLeft='250px';
+			   }
+			   function closeSlideMenu(){
+				   document.getElementById('side-menu').style.width='0px';
+				   document.getElementById('main').style.marginLeft='0px';
+			   }
+		</script>
+            	
+            <!--fechamento do javascriot do menu-->
+            
+            
+            
+<header>
+	<div class="container">
+		<div><div class="logo-1"></div><!--logo-1--></div>
+		<!--<div><div class="logo-2"></div><!--logo-2--><!--</div>-->
+		<div class="clear"></div><!--clear-->
+	</div><!--container-->
+</header>
+	
+    <!--menu responsivo-->
+    	
+         <nav class="navbar">
+         <span class="open-slide">
+          <a href="#" onclick="openSlideMenu()">
+          		<svg width="30" height="30">
+				<path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+				<path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+				<path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+				</svg>
+          </a>
+         </span>
+         
+         
+         			<ul class="navbar-nav">
+                    	<li><a href="index.html">Página Principal</a></li>
+                    	<li><a href="sobre.html">Sobre</a></li>
+                    	<li><a href="servicos.html">Serviços</a></li>
+                    	<li><a href="contatos.html">Contatos</a></li>
+                    </ul>
+        </nav>
+        				<div id="side-menu" class="side-nav">
+                        	<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                            <a href="index.html">Página Principal</a>
+                            <a href="sobre.html">Sobre</a>
+                            <a href="servicos.html">Serviços</a>
+                            <a href="contatos.html">Contatos</a>
+                        </div>
+                        
+    
+    <!--fechamento do menu responsivo-->
+    
+
+
+        
+         <div class="rodape">
+					<p>Copyright &copy; 2019 - by Prof: Raylander C. Ribeiro<br>
+					<a href="#" target="_blank">Menu</a></p>
+		 </div>
+      </div>
+	
+
+
+</body>
+</html>
